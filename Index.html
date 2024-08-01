@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Pé-de-Meia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            color: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .header-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .logo h1 {
+            margin: 0;
+            color: #00bcd4;
+        }
+        .calendar {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #444;
+            border-radius: 8px;
+            background-color: #222;
+        }
+        .calendar h2 {
+            margin-top: 0;
+            color: #00bcd4;
+        }
+        .calendar-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .calendar-table th, .calendar-table td {
+            border: 1px solid #444;
+            padding: 8px;
+            text-align: center;
+            color: #f5f5f5;
+        }
+        .calendar-table th {
+            background-color: #00bcd4;
+        }
+        .calendar-table tr:nth-child(even) {
+            background-color: #333;
+        }
+        .calendar-table td {
+            background-color: #222;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer p {
+            font-size: 14px;
+            color: #bbb;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #00bcd4;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #008c9e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.appcreator24.com/srv/imgs/icos/app3190723_mb_it998354.png?v=7" alt="StudyTask">
+            <h1>StudyTask</h1>
+        </div>
+        <img src="https://media-manager.noticiasaominuto.com.br/1920/naom_65ba2f71acceb.jpg" alt="Programa Pé-de-Meia" class="header-img">
+        <h1>Calendário do Programa Pé-de-Meia</h1>
+        <div class="calendar">
+            <h2>Calendário de Pagamentos</h2>
+            <table class="calendar-table">
+                <thead>
+                    <tr>
+                        <th>Parcela</th>
+                        <th>Período</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1ª Parcela</td>
+                        <td>26/03 a 3/04</td>
+                    </tr>
+                    <tr>
+                        <td>2ª Parcela</td>
+                        <td>25/04 a 3/05</td>
+                    </tr>
+                    <tr>
+                        <td>3ª Parcela</td>
+                        <td>27/05 a 4/06</td>
+                    </tr>
+                    <tr>
+                        <td>4ª Parcela</td>
+                        <td>26/06 a 4/07</td>
+                    </tr>
+                    <tr>
+                        <td>5ª Parcela</td>
+                        <td>26/08 a 2/09</td>
+                    </tr>
+                    <tr>
+                        <td>6ª Parcela</td>
+                        <td>25/09 a 2/10</td>
+                    </tr>
+                    <tr>
+                        <td>7ª Parcela</td>
+                        <td>28/10 a 4/11</td>
+                    </tr>
+                    <tr>
+                        <td>8ª Parcela</td>
+                        <td>25/11 a 2/12</td>
+                    </tr>
+                    <tr>
+                        <td>9ª Parcela</td>
+                        <td>20/12 a 30/12</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Incentivo-Conclusão e Incentivo-Inimigo: Disponível para aprovados no ensino médio e para aqueles que fazem o teste Enem de dois dias. Pagamento entre 24/02/25 e 3/03/25.</p>
+        </div>
+        <div class="footer">
+            <p>Essas informações foram tiradas do site GOV, o site oficial do governo federal. Caso queira saber mais, acesse o site.</p>
+            <a href="https://www.gov.br/mec/pt-br/pe-de-meia/calendario" class="button">Acessar o Gov</a>
+        </div>
+    </div>
+</body>
+</html>
